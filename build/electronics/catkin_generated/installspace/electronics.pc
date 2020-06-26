@@ -1,0 +1,8 @@
+prefix=/home/pratyush/kratos/install
+
+Name: electronics
+Description: Description of electronics
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime rospy std_msgs geometry_msgs
